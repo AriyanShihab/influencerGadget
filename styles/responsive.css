@@ -1,0 +1,42 @@
+@media screen and (max-width: 768px) {
+    .flex-box {
+        flex-direction: column-reverse;
+    }
+    .banner-right img {
+        width: 80vw;
+        height: 80vw;
+        margin: 30px auto;
+    }
+    .fake {
+        height: 300px;
+        width: 300px;
+        left: 8%;
+        top: 14%;
+    }
+    .banner-left h1 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .banner-left {
+        max-width: 100%;
+    }
+    .logo-holder {
+        margin-top: 50px;
+    }
+    .collection {
+        margin: 20px 0;
+    }
+    .section-head {
+        font-size: 30px;
+    }
+    .product-card-holder {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid-container .right h1 {
+        font-size: 30px;
+    }
+}
