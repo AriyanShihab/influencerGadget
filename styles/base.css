@@ -191,6 +191,31 @@ p {
     margin-bottom: 20px;
 }
 
+.right {
+    padding-bottom: 30px;
+}
+
 .no-radius {
     border-radius: 0;
+}
+
+footer {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.small {
+    font-size: 14px;
+}
+
+.icon-parent {
+    margin-top: 20px;
+}
+
+.icon-parent i {
+    color: #fff;
+    margin: 10px;
+    font-size: 18px;
 }
